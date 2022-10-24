@@ -6,9 +6,9 @@ using System.Collections;
 
 //LES TABLEAUX
 
-// Les + : Stable
+// Les + : Optimal pour du stockage simple et se prête facilement aux fonctions de tri
 
-// Les - : Valeurs prédéfinies à l'avance. Ajouts impossibles lors de l'exécution.
+// Les - : Taille fixe, pour "modifier" la taille il faut recréer un nouveau table (ça coûte cher)
 
 
 
@@ -16,15 +16,15 @@ using System.Collections;
 
 // Les + : Ajouts possibles à l'infini
 
-// Les - : Les recherches sont + lentes sur les grosses bases de données
+// Les - : Les recherches et tris sont + lents
 
 
 
 //LES DICTIONNAIRES
 
-// Les + : Recherches + rapides car elles ciblent directement les clés/valeurs
+// Les + : Recherches + rapides car elles ciblent directement les clés/valeurs (accès direct)
 
-// Les - : ???
+// Les - : Pas triable par valeur et les clés doivent être hashées (c'est une hashtable)
 
 
 
